@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
             }
             else if (viewState.error != null) {
                 binding.passphrase.setText(viewState.error.getLocalizedMessage());
-                Log.e("Diceware", "Exception generating passphrase",
+                Log.e("Randomize", "Exception generating passphrase",
                         viewState.error);
             }
             else {
